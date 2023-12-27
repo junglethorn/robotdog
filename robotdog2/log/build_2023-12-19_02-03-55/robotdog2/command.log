@@ -1,0 +1,4 @@
+Invoking command in '/home/acir/robotdog2/build/robotdog2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/acir/robotdog2/build/robotdog2 -- -j8 -l8
+Invoked command in '/home/acir/robotdog2/build/robotdog2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/acir/robotdog2/build/robotdog2 -- -j8 -l8
+Invoking command in '/home/acir/robotdog2/build/robotdog2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/acir/robotdog2/build/robotdog2
+Invoked command in '/home/acir/robotdog2/build/robotdog2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/acir/robotdog2/build/robotdog2

@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000174] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000199] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.099413] (-) TimerEvent: {}
+[0.199645] (-) TimerEvent: {}
+[0.299868] (-) TimerEvent: {}
+[0.400082] (-) TimerEvent: {}
+[0.500316] (-) TimerEvent: {}
+[0.559613] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/acir/ros2_ws/build/py_pubsub/build', 'install', '--record', '/home/acir/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/acir/ros2_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(robot)', 'LANGUAGE': 'zh_CN:en_US:en', 'USER': 'acir', 'SSH_CLIENT': '222.29.98.65 10359 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/acir/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/acir/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/acir', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/acir/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2', 'TERM_PROGRAM_VERSION': '1.85.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-3fb35b91-e263-4ed5-ba7e-529b149fe923.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/acir/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/acir/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'ROS_DISTRO': 'humble', 'LOGNAME': 'acir', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '279', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/acir/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/home/acir/anaconda3/envs/robot/bin:/home/acir/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'CONDA_PREFIX_1': '/home/acir/anaconda3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-fd1a13ae66.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/acir/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'robot', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/acir/ros2_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/home/acir/anaconda3/bin/conda', 'SSH_CONNECTION': '222.29.98.65 10359 222.29.98.197 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/acir/ros2_ws/build/py_pubsub/prefix_override:/home/acir/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'CONDA_PREFIX': '/home/acir/anaconda3/envs/robot', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1'}, 'shell': False}
+[0.600430] (-) TimerEvent: {}
+[0.700655] (-) TimerEvent: {}
+[0.747209] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[0.747584] (py_pubsub) StdoutLine: {'line': b'creating ../../build/py_pubsub/py_pubsub.egg-info\n'}
+[0.747746] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[0.747882] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[0.748070] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[0.748163] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[0.748217] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[0.748265] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.749232] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.749705] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.749843] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[0.749935] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[0.750012] (py_pubsub) StdoutLine: {'line': b'creating /home/acir/ros2_ws/build/py_pubsub/build\n'}
+[0.750076] (py_pubsub) StdoutLine: {'line': b'creating /home/acir/ros2_ws/build/py_pubsub/build/lib\n'}
+[0.750137] (py_pubsub) StdoutLine: {'line': b'creating /home/acir/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.750198] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /home/acir/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.750250] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/syh_cv_node.py -> /home/acir/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.750298] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/syh_cv_start.py -> /home/acir/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.750379] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[0.750468] (py_pubsub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.750530] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.750610] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[0.751057] (py_pubsub) StdoutLine: {'line': b'creating /home/acir/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.751140] (py_pubsub) StdoutLine: {'line': b'copying /home/acir/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/acir/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.751228] (py_pubsub) StdoutLine: {'line': b'copying /home/acir/ros2_ws/build/py_pubsub/build/lib/py_pubsub/syh_cv_node.py -> /home/acir/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.751283] (py_pubsub) StdoutLine: {'line': b'copying /home/acir/ros2_ws/build/py_pubsub/build/lib/py_pubsub/syh_cv_start.py -> /home/acir/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.751627] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/acir/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc\n'}
+[0.751823] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/acir/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/syh_cv_node.py to syh_cv_node.cpython-310.pyc\n'}
+[0.752299] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/acir/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/syh_cv_start.py to syh_cv_start.cpython-310.pyc\n'}
+[0.752564] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[0.752910] (py_pubsub) StdoutLine: {'line': b'creating /home/acir/ros2_ws/install/py_pubsub/share/ament_index\n'}
+[0.752987] (py_pubsub) StdoutLine: {'line': b'creating /home/acir/ros2_ws/install/py_pubsub/share/ament_index/resource_index\n'}
+[0.753077] (py_pubsub) StdoutLine: {'line': b'creating /home/acir/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[0.753147] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /home/acir/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[0.753196] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/acir/ros2_ws/install/py_pubsub/share/py_pubsub\n'}
+[0.753243] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.754201] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/acir/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[0.754807] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[0.770088] (py_pubsub) StdoutLine: {'line': b'Installing cv_node script to /home/acir/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[0.770241] (py_pubsub) StdoutLine: {'line': b'Installing cv_start script to /home/acir/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[0.770416] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/acir/ros2_ws/build/py_pubsub/install.log'\n"}
+[0.786886] (py_pubsub) CommandEnded: {'returncode': 0}
+[0.800748] (-) TimerEvent: {}
+[0.830887] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[0.831349] (-) EventReactorShutdown: {}

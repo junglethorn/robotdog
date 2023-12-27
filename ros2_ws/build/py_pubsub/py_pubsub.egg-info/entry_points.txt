@@ -1,0 +1,4 @@
+[console_scripts]
+cv_node = py_pubsub.syh_cv_node:main
+cv_start = py_pubsub.syh_cv_start:main
+

@@ -1,0 +1,36 @@
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/acir/robotdog2/build/robotdog2
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/images/flexible.png
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/images/materials.png
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/images/multipleshapes.png
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/images/myfirst.png
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/images/origins.png
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/images/visual.png
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/launch/display.launch.py
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/meshes/l_finger.dae
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/meshes/l_finger_color.png
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/meshes/l_finger_tip.dae
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/meshes/l_finger_tip_color.png
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/rviz/urdf.rviz
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/urdf/robotdog.urdf
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/ament_index/resource_index/package_run_dependencies/robotdog2
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/ament_index/resource_index/parent_prefix_path/robotdog2
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/environment/path.sh
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/environment/path.dsv
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/local_setup.bash
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/local_setup.sh
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/local_setup.zsh
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/local_setup.dsv
+-- Symlinking: /home/acir/robotdog2/install/robotdog2/share/robotdog2/package.dsv
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/ament_index/resource_index/packages/robotdog2
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/cmake/robotdog2Config.cmake
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/cmake/robotdog2Config-version.cmake
+-- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/package.xml

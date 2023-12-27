@@ -1,0 +1,2 @@
+Invoking command in '/home/acir/robotdog2/build/urdf_tutorial': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/acir/robotdog2 -DCMAKE_INSTALL_PREFIX=/home/acir/robotdog2/install/urdf_tutorial
+Invoked command in '/home/acir/robotdog2/build/urdf_tutorial' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/acir/robotdog2 -DCMAKE_INSTALL_PREFIX=/home/acir/robotdog2/install/urdf_tutorial

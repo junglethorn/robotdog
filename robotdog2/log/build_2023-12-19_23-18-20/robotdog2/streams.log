@@ -1,0 +1,34 @@
+[0.056s] Invoking command in '/home/acir/robotdog2/build/robotdog2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/acir/robotdog2/build/robotdog2 -- -j8 -l8
+[0.086s] Invoked command in '/home/acir/robotdog2/build/robotdog2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/acir/robotdog2/build/robotdog2 -- -j8 -l8
+[0.110s] Invoking command in '/home/acir/robotdog2/build/robotdog2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/acir/robotdog2/build/robotdog2
+[0.116s] -- Install configuration: ""
+[0.116s] -- Execute custom install script
+[0.116s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/images/flexible.png
+[0.117s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/images/materials.png
+[0.117s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/images/multipleshapes.png
+[0.117s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/images/myfirst.png
+[0.117s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/images/origins.png
+[0.117s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/images/visual.png
+[0.117s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/launch/display.launch.py
+[0.118s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/meshes/l_finger.dae
+[0.118s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/meshes/l_finger_color.png
+[0.118s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/meshes/l_finger_tip.dae
+[0.118s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/meshes/l_finger_tip_color.png
+[0.118s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/rviz/urdf.rviz
+[0.118s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/urdf/robotdog.urdf
+[0.118s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/ament_index/resource_index/package_run_dependencies/robotdog2
+[0.119s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/ament_index/resource_index/parent_prefix_path/robotdog2
+[0.119s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/environment/ament_prefix_path.sh
+[0.119s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/environment/ament_prefix_path.dsv
+[0.119s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/environment/path.sh
+[0.119s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/environment/path.dsv
+[0.119s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/local_setup.bash
+[0.119s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/local_setup.sh
+[0.120s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/local_setup.zsh
+[0.120s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/local_setup.dsv
+[0.120s] -- Symlinking: /home/acir/robotdog2/install/robotdog2/share/robotdog2/package.dsv
+[0.132s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/ament_index/resource_index/packages/robotdog2
+[0.133s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/cmake/robotdog2Config.cmake
+[0.133s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/cmake/robotdog2Config-version.cmake
+[0.133s] -- Up-to-date symlink: /home/acir/robotdog2/install/robotdog2/share/robotdog2/package.xml
+[0.136s] Invoked command in '/home/acir/robotdog2/build/robotdog2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/acir/robotdog2/build/robotdog2

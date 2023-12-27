@@ -1,0 +1,2 @@
+Invoking command in '/home/acir/robotdog2/build/robotdog2': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/acir/robotdog2/build/robotdog2 -- -j8 -l8
+Invoked command in '/home/acir/robotdog2/build/robotdog2' returned '2': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/acir/robotdog2/build/robotdog2 -- -j8 -l8

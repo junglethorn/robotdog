@@ -1,0 +1,43 @@
+[0.561s] Invoking command in '/home/acir/ros2_ws/src/py_pubsub': CONDA_PROMPT_MODIFIER=(robot) PYTHONPATH=/home/acir/ros2_ws/build/py_pubsub/prefix_override:/home/acir/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/acir/ros2_ws/build/py_pubsub/build install --record /home/acir/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed
+[0.747s] running egg_info
+[0.747s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[0.748s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.748s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.748s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.748s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.748s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.748s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.749s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.750s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.750s] running build
+[0.750s] running build_py
+[0.750s] creating /home/acir/ros2_ws/build/py_pubsub/build
+[0.750s] creating /home/acir/ros2_ws/build/py_pubsub/build/lib
+[0.750s] creating /home/acir/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.750s] copying py_pubsub/__init__.py -> /home/acir/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.750s] copying py_pubsub/syh_cv_node.py -> /home/acir/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.750s] copying py_pubsub/syh_cv_start.py -> /home/acir/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.750s] running install
+[0.750s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.750s]   warnings.warn(
+[0.750s] running install_lib
+[0.751s] creating /home/acir/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.751s] copying /home/acir/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/acir/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.751s] copying /home/acir/ros2_ws/build/py_pubsub/build/lib/py_pubsub/syh_cv_node.py -> /home/acir/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.751s] copying /home/acir/ros2_ws/build/py_pubsub/build/lib/py_pubsub/syh_cv_start.py -> /home/acir/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.751s] byte-compiling /home/acir/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[0.752s] byte-compiling /home/acir/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/syh_cv_node.py to syh_cv_node.cpython-310.pyc
+[0.752s] byte-compiling /home/acir/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/syh_cv_start.py to syh_cv_start.cpython-310.pyc
+[0.752s] running install_data
+[0.753s] creating /home/acir/ros2_ws/install/py_pubsub/share/ament_index
+[0.753s] creating /home/acir/ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[0.753s] creating /home/acir/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.753s] copying resource/py_pubsub -> /home/acir/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.753s] copying package.xml -> /home/acir/ros2_ws/install/py_pubsub/share/py_pubsub
+[0.753s] running install_egg_info
+[0.754s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/acir/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[0.755s] running install_scripts
+[0.770s] Installing cv_node script to /home/acir/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.770s] Installing cv_start script to /home/acir/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.770s] writing list of installed files to '/home/acir/ros2_ws/build/py_pubsub/install.log'
+[0.787s] Invoked command in '/home/acir/ros2_ws/src/py_pubsub' returned '0': CONDA_PROMPT_MODIFIER=(robot) PYTHONPATH=/home/acir/ros2_ws/build/py_pubsub/prefix_override:/home/acir/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/acir/ros2_ws/build/py_pubsub/build install --record /home/acir/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed

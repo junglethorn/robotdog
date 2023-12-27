@@ -1,0 +1,60 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/acir/robotdog2/build/robotdog2
+-- Install configuration: ""
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/images
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/images/multipleshapes.png
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/images/origins.png
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/images/flexible.png
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/images/materials.png
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/images/myfirst.png
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/images/visual.png
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/launch
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/launch/display.launch.py
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/meshes
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/meshes/l_finger_tip_color.png
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/meshes/l_finger_color.png
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/meshes/l_finger.dae
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/meshes/l_finger_tip.dae
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/rviz
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/rviz/urdf.rviz
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/urdf
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/urdf/08-macroed.urdf.xacro
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/urdf/07-physics.urdf
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/urdf/05-visual.urdf
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/urdf/03-origins.urdf
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/urdf/06-flexible.urdf
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/urdf/01-myfirst.urdf
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/urdf/robotdog.urdf
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/urdf/04-materials.urdf
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/urdf/02-multipleshapes.urdf
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/ament_index/resource_index/package_run_dependencies/robotdog2
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/ament_index/resource_index/parent_prefix_path/robotdog2
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/environment/ament_prefix_path.sh
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/environment/ament_prefix_path.dsv
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/environment/path.sh
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/environment/path.dsv
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/local_setup.bash
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/local_setup.sh
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/local_setup.zsh
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/local_setup.dsv
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/package.dsv
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/ament_index/resource_index/packages/robotdog2
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/cmake/robotdog2Config.cmake
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/cmake/robotdog2Config-version.cmake
+-- Installing: /home/acir/robotdog2/install/robotdog2/share/robotdog2/package.xml
