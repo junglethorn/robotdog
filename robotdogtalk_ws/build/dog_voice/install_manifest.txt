@@ -1,0 +1,17 @@
+/home/acir/robotdogtalk_ws/install/dog_voice/share/ament_index/resource_index/package_run_dependencies/dog_voice
+/home/acir/robotdogtalk_ws/install/dog_voice/share/ament_index/resource_index/parent_prefix_path/dog_voice
+/home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/ament_prefix_path.sh
+/home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/ament_prefix_path.dsv
+/home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/path.sh
+/home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/path.dsv
+/home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.bash
+/home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.sh
+/home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.zsh
+/home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.dsv
+/home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/package.dsv
+/home/acir/robotdogtalk_ws/install/dog_voice/share/ament_index/resource_index/packages/dog_voice
+/home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/cmake/dog_voiceConfig.cmake
+/home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/cmake/dog_voiceConfig-version.cmake
+/home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/package.xml
+/home/acir/robotdogtalk_ws/install/dog_voice/lib/dog_voice/iat_publish
+/home/acir/robotdogtalk_ws/install/dog_voice/lib/dog_voice/tts_subscribe

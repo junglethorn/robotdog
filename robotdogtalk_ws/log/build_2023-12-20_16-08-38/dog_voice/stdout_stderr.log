@@ -1,0 +1,78 @@
+[35m[1mConsolidate compiler generated dependencies of target tts_subscribe[0m
+[ 66%] Built target iat_publish
+[ 83%] [32mBuilding CXX object CMakeFiles/tts_subscribe.dir/src/tts_subscribe.cpp.o[0m
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:145:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  145 | void voiceWordsCallback(const std_msgs::msg::String::ConstPtr& msg[01;35m[K)[m[K
+      |                                                                   [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:16[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:105:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  105 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:[m[K In function ‘[01m[Kvoid voiceWordsCallback(const ConstPtr&)[m[K’:
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:176:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KcommandPub[m[K’
+  176 |         msg.data="command1"
+      |                            [01;31m[K^[m[K
+      |                            [32m[K;[m[K
+  177 | 
+  178 |         [32m[KcommandPub[m[K->publish(msg);
+      |         [32m[K~~~~~~~~~~[m[K          
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:147:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  147 |     char [01;35m[Kcmd[m[K[2000];
+      |          [01;35m[K^~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:149:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  149 |     int         [01;35m[Kret[m[K                  = MSP_SUCCESS;
+      |                 [01;35m[K^~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:150:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksession_begin_params[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  150 |     const char* [01;35m[Ksession_begin_params[m[K = "voice_name = xiaoyan, text_encoding = utf8, sample_rate = 16000, speed = 50, volume = 50, pitch = 50, rdn = 2";
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:151:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfilename[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  151 |     const char* [01;35m[Kfilename[m[K             = "tts_sample.wav"; //合成的语音文件名称
+      |                 [01;35m[K^~~~~~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:[m[K At global scope:
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:183:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+  183 | [01;31m[Kelse[m[K if(dataString.find("转圈") != std::string::npos
+      | [01;31m[K^~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:198:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+  198 |     [01;31m[Kelse[m[K if(dataString.find("你几岁了") != std::string::npos
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:205:6:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+  205 |      [01;31m[Kelse[m[K if(dataString.find("心情不好") != std::string::npos
+      |      [01;31m[K^~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:218:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+  218 |     [01;31m[Kelse[m[K if(dataString.find("你可以做什么") != std::string::npos
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:225:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+  225 |     [01;31m[Kelse[m[K if(dataString.find("时间") != std::string::npos)
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:240:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+  240 |     [01;31m[Kelse[m[K
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:247:11:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  247 |     printf[01;31m[K([m[K"开始合成 ...\n");
+      |           [01;31m[K^[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:248:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kret[m[K’ does not name a type
+  248 |     [01;31m[Kret[m[K = text_to_speech(text, filename, session_begin_params);
+      |     [01;31m[K^~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:249:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+  249 |     [01;31m[Kif[m[K (MSP_SUCCESS != ret)
+      |     [01;31m[K^~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:253:11:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  253 |     printf[01;31m[K([m[K"合成完毕\n");
+      |           [01;31m[K^[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:255:10:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  255 |     popen[01;31m[K([m[K"aplay tts_sample.wav","r");
+      |          [01;31m[K^[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:256:10:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  256 |     sleep[01;31m[K([m[K1);
+      |          [01;31m[K^[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:257:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  257 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:308:1:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Kexit[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label-Wunused-label]8;;[m[K]
+  308 | [01;35m[Kexit[m[K:
+      | [01;35m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/tts_subscribe.dir/build.make:76：CMakeFiles/tts_subscribe.dir/src/tts_subscribe.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/tts_subscribe.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

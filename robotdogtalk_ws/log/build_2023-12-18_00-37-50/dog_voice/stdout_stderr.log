@@ -1,0 +1,62 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/tts_subscribe.dir/src/tts_subscribe.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/iat_publish.dir/src/iat_publish.cpp.o[0m
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:144:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  144 | void voiceWordsCallback(const std_msgs::msg::String::ConstPtr& msg[01;35m[K)[m[K
+      |                                                                   [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:16[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:105:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  105 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:[m[K In function ‘[01m[Kvoid voiceWordsCallback(const ConstPtr&)[m[K’:
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:146:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  146 |     char [01;35m[Kcmd[m[K[2000];
+      |          [01;35m[K^~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:251:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+  251 |         [01;31m[Knode[m[K = std::make_shared<rclcpp::Node>("subscriber");
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:252:69:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  252 |           auto sub = node->create_subscription<std_msgs::msg::String[01;31m[K>[m[K("voiceWords", 1000, TopicCallback);
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:252:71:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  252 |           auto sub = node->create_subscription<std_msgs::msg::String>([01;35m[K"voiceWords"[m[K, 1000, TopicCallback);
+      |                                                                       [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:252:91:[m[K [01;31m[Kerror: [m[K‘[01m[KTopicCallback[m[K’ was not declared in this scope
+  252 |           auto sub = node->create_subscription<std_msgs::msg::String>("voiceWords", 1000, [01;31m[KTopicCallback[m[K);
+      |                                                                                           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:258:1:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Kexit[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label-Wunused-label]8;;[m[K]
+  258 | [01;35m[Kexit[m[K:
+      | [01;35m[K^~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/iat_publish.cpp:263:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  263 | void WakeUp(const std_msgs::msg::String::ConstPtr& msg[01;35m[K)[m[K
+      |                                                       [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/iat_publish.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:105:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  105 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/iat_publish.cpp:[m[K In function ‘[01m[Kvoid WakeUp(const ConstPtr&)[m[K’:
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/iat_publish.cpp:263:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  263 | void WakeUp([01;35m[Kconst std_msgs::msg::String::ConstPtr& msg[m[K)
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/iat_publish.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/iat_publish.cpp:295:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kupload_on[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  295 |         int [01;35m[Kupload_on[m[K = 1; /* whether upload the user word */
+      |             [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/iat_publish.cpp:298:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kaud_src[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  298 |         int [01;35m[Kaud_src[m[K = 0; /* from mic or file */
+      |             [01;35m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/tts_subscribe.dir/build.make:76：CMakeFiles/tts_subscribe.dir/src/tts_subscribe.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/tts_subscribe.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/iat_publish.cpp:[m[K At global scope:
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/iat_publish.cpp:131:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid demo_file(const char*, const char*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+  131 | static void [01;35m[Kdemo_file[m[K(const char* audio_file, const char* session_begin_params)
+      |             [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/iat_publish.cpp:24:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint upload_userwords()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   24 | static int [01;35m[Kupload_userwords[m[K()
+      |            [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[ 50%] [32m[1mLinking CXX executable iat_publish[0m
+[ 83%] Built target iat_publish
+gmake: *** [Makefile:146：all] 错误 2

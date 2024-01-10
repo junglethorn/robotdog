@@ -1,0 +1,45 @@
+[0.051s] Invoking command in '/home/acir/robotdogtalk_ws/build/dog_voice': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/acir/robotdogtalk_ws/build/dog_voice -- -j8 -l8
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target tts_subscribe[0m
+[0.098s] [ 66%] Built target iat_publish
+[0.102s] [ 83%] [32mBuilding CXX object CMakeFiles/tts_subscribe.dir/src/tts_subscribe.cpp.o[0m
+[1.938s] [01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:145:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.938s]   145 | void voiceWordsCallback(const std_msgs::msg::String::ConstPtr& msg[01;35m[K)[m[K
+[1.938s]       |                                                                   [01;35m[K^[m[K
+[1.938s] In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7[m[K,
+[1.938s]                  from [01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:16[m[K:
+[1.938s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:105:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.938s]   105 |     [01;36m[KConstPtr[m[K;
+[1.938s]       |     [01;36m[K^~~~~~~~[m[K
+[1.942s] [01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:[m[K In function ‘[01m[Kvoid voiceWordsCallback(const ConstPtr&)[m[K’:
+[1.942s] [01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:147:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.943s]   147 |     char [01;35m[Kcmd[m[K[2000];
+[1.943s]       |          [01;35m[K^~~[m[K
+[1.980s] [01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.980s] [01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:259:1:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Kexit[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label-Wunused-label]8;;[m[K]
+[1.980s]   259 | [01;35m[Kexit[m[K:
+[1.980s]       | [01;35m[K^~~~[m[K
+[6.535s] [100%] [32m[1mLinking CXX executable tts_subscribe[0m
+[6.868s] [100%] Built target tts_subscribe
+[6.881s] Invoked command in '/home/acir/robotdogtalk_ws/build/dog_voice' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/acir/robotdogtalk_ws/build/dog_voice -- -j8 -l8
+[6.914s] Invoking command in '/home/acir/robotdogtalk_ws/build/dog_voice': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/acir/robotdogtalk_ws/build/dog_voice
+[6.919s] -- Install configuration: ""
+[6.919s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/ament_index/resource_index/package_run_dependencies/dog_voice
+[6.919s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/ament_index/resource_index/parent_prefix_path/dog_voice
+[6.919s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/ament_prefix_path.sh
+[6.920s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/ament_prefix_path.dsv
+[6.920s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/path.sh
+[6.920s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/path.dsv
+[6.920s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.bash
+[6.920s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.sh
+[6.920s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.zsh
+[6.920s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.dsv
+[6.920s] -- Installing: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/package.dsv
+[6.920s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/ament_index/resource_index/packages/dog_voice
+[6.920s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/cmake/dog_voiceConfig.cmake
+[6.920s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/cmake/dog_voiceConfig-version.cmake
+[6.920s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/package.xml
+[6.920s] -- Installing: /home/acir/robotdogtalk_ws/install/dog_voice/lib/dog_voice/iat_publish
+[6.923s] -- Set runtime path of "/home/acir/robotdogtalk_ws/install/dog_voice/lib/dog_voice/iat_publish" to ""
+[6.923s] -- Installing: /home/acir/robotdogtalk_ws/install/dog_voice/lib/dog_voice/tts_subscribe
+[6.927s] -- Set runtime path of "/home/acir/robotdogtalk_ws/install/dog_voice/lib/dog_voice/tts_subscribe" to ""
+[6.928s] Invoked command in '/home/acir/robotdogtalk_ws/build/dog_voice' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/acir/robotdogtalk_ws/build/dog_voice

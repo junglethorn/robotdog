@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.000086] (dog_voice) JobQueued: {'identifier': 'dog_voice', 'dependencies': OrderedDict()}
+[0.000116] (dog_voice) JobStarted: {'identifier': 'dog_voice'}
+[0.047736] (dog_voice) JobProgress: {'identifier': 'dog_voice', 'progress': 'cmake'}
+[0.048262] (dog_voice) JobProgress: {'identifier': 'dog_voice', 'progress': 'build'}
+[0.048758] (dog_voice) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/acir/robotdogtalk_ws/build/dog_voice', '--', '-j8', '-l8'], 'cwd': '/home/acir/robotdogtalk_ws/build/dog_voice', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'acir'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/acir'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '4160'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=324eac46794d004badddc7a16579b87c'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'acir'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'acir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/acir/anaconda3/bin:/home/acir/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/acir-ubuntu2204:@/tmp/.ICE-unix/4160,unix/acir-ubuntu2204:/tmp/.ICE-unix/4160'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51bfca8f_57ae_4497_8b6f_4030cb1edc56'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KDUZF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1525'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/acir/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/acir/robotdogtalk_ws/build/dog_voice'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/acir/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=324eac46794d004badddc7a16579b87c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/acir/anaconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099521] (-) TimerEvent: {}
+[0.099872] (dog_voice) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/tts_subscribe.dir/src/tts_subscribe.cpp.o\x1b[0m\n'}
+[0.099993] (dog_voice) StdoutLine: {'line': b'[ 83%] Built target iat_publish\n'}
+[0.199619] (-) TimerEvent: {}
+[0.299910] (-) TimerEvent: {}
+[0.306934] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:300:120:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextended character \xe2\x80\x9c is not valid in an identifier\n'}
+[0.307103] (dog_voice) StderrLine: {'line': b'  300 |         rclcpp::Publisher<std_msgs::msg::String>::SharedPtr commandPub = node->create_publisher<std_msgs::msg::String>(\x1b[01;31m\x1b[K\xe2\x80\x9c\x1b[m\x1b[Kcommand\xe2\x80\x9d, 1000);\n'}
+[0.307201] (dog_voice) StderrLine: {'line': b'      |                                                                                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.307288] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:300:120:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextended character \xe2\x80\x9d is not valid in an identifier\n'}
+[0.400005] (-) TimerEvent: {}
+[0.500291] (-) TimerEvent: {}
+[0.600525] (-) TimerEvent: {}
+[0.701067] (-) TimerEvent: {}
+[0.801275] (-) TimerEvent: {}
+[0.901568] (-) TimerEvent: {}
+[1.001815] (-) TimerEvent: {}
+[1.102078] (-) TimerEvent: {}
+[1.202347] (-) TimerEvent: {}
+[1.302593] (-) TimerEvent: {}
+[1.402858] (-) TimerEvent: {}
+[1.503105] (-) TimerEvent: {}
+[1.603367] (-) TimerEvent: {}
+[1.703615] (-) TimerEvent: {}
+[1.803877] (-) TimerEvent: {}
+[1.904131] (-) TimerEvent: {}
+[1.975602] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:145:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.975733] (dog_voice) StderrLine: {'line': b'  145 | void voiceWordsCallback(const std_msgs::msg::String::ConstPtr& msg\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[1.975785] (dog_voice) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.975832] (dog_voice) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7\x1b[m\x1b[K,\n'}
+[1.975877] (dog_voice) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:16\x1b[m\x1b[K:\n'}
+[1.975922] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:105:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.975978] (dog_voice) StderrLine: {'line': b'  105 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[1.976021] (dog_voice) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.978795] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid voiceWordsCallback(const ConstPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.978881] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:176:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KcommandPub\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.978935] (dog_voice) StderrLine: {'line': b'  176 |         msg.data="command1"\n'}
+[1.978983] (dog_voice) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.979029] (dog_voice) StderrLine: {'line': b'      |                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.979202] (dog_voice) StderrLine: {'line': b'  177 | \n'}
+[1.979270] (dog_voice) StderrLine: {'line': b'  178 |         \x1b[32m\x1b[KcommandPub\x1b[m\x1b[K->publish(msg);\n'}
+[1.979319] (dog_voice) StderrLine: {'line': b'      |         \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K          \n'}
+[1.979366] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:147:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcmd\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.979415] (dog_voice) StderrLine: {'line': b'  147 |     char \x1b[01;35m\x1b[Kcmd\x1b[m\x1b[K[2000];\n'}
+[1.979459] (dog_voice) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.979502] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:149:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kret\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.979547] (dog_voice) StderrLine: {'line': b'  149 |     int         \x1b[01;35m\x1b[Kret\x1b[m\x1b[K                  = MSP_SUCCESS;\n'}
+[1.979591] (dog_voice) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.979634] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:150:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ksession_begin_params\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.979765] (dog_voice) StderrLine: {'line': b'  150 |     const char* \x1b[01;35m\x1b[Ksession_begin_params\x1b[m\x1b[K = "voice_name = xiaoyan, text_encoding = utf8, sample_rate = 16000, speed = 50, volume = 50, pitch = 50, rdn = 2";\n'}
+[1.979823] (dog_voice) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.979870] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:151:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kfilename\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.979926] (dog_voice) StderrLine: {'line': b'  151 |     const char* \x1b[01;35m\x1b[Kfilename\x1b[m\x1b[K             = "tts_sample.wav"; //\xe5\x90\x88\xe6\x88\x90\xe7\x9a\x84\xe8\xaf\xad\xe9\x9f\xb3\xe6\x96\x87\xe4\xbb\xb6\xe5\x90\x8d\xe7\xa7\xb0\n'}
+[1.979975] (dog_voice) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.980019] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.980067] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:183:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kelse\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.980117] (dog_voice) StderrLine: {'line': b'  183 | \x1b[01;31m\x1b[Kelse\x1b[m\x1b[K if(dataString.find("\xe8\xbd\xac\xe5\x9c\x88") != std::string::npos\n'}
+[1.980161] (dog_voice) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.980204] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:198:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kelse\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.980247] (dog_voice) StderrLine: {'line': b'  198 |     \x1b[01;31m\x1b[Kelse\x1b[m\x1b[K if(dataString.find("\xe4\xbd\xa0\xe5\x87\xa0\xe5\xb2\x81\xe4\xba\x86") != std::string::npos\n'}
+[1.980291] (dog_voice) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.980333] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:205:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kelse\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.980376] (dog_voice) StderrLine: {'line': b'  205 |      \x1b[01;31m\x1b[Kelse\x1b[m\x1b[K if(dataString.find("\xe5\xbf\x83\xe6\x83\x85\xe4\xb8\x8d\xe5\xa5\xbd") != std::string::npos\n'}
+[1.980419] (dog_voice) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.980461] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:218:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kelse\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.980504] (dog_voice) StderrLine: {'line': b'  218 |     \x1b[01;31m\x1b[Kelse\x1b[m\x1b[K if(dataString.find("\xe4\xbd\xa0\xe5\x8f\xaf\xe4\xbb\xa5\xe5\x81\x9a\xe4\xbb\x80\xe4\xb9\x88") != std::string::npos\n'}
+[1.980547] (dog_voice) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.980589] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:225:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kelse\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.980632] (dog_voice) StderrLine: {'line': b'  225 |     \x1b[01;31m\x1b[Kelse\x1b[m\x1b[K if(dataString.find("\xe6\x97\xb6\xe9\x97\xb4") != std::string::npos)\n'}
+[1.980675] (dog_voice) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.980717] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:240:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kelse\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.980760] (dog_voice) StderrLine: {'line': b'  240 |     \x1b[01;31m\x1b[Kelse\x1b[m\x1b[K\n'}
+[1.980803] (dog_voice) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.980845] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:247:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected constructor, destructor, or type conversion before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.980888] (dog_voice) StderrLine: {'line': b'  247 |     printf\x1b[01;31m\x1b[K(\x1b[m\x1b[K"\xe5\xbc\x80\xe5\xa7\x8b\xe5\x90\x88\xe6\x88\x90 ...\\n");\n'}
+[1.980931] (dog_voice) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.980973] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:248:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kret\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.981020] (dog_voice) StderrLine: {'line': b'  248 |     \x1b[01;31m\x1b[Kret\x1b[m\x1b[K = text_to_speech(text, filename, session_begin_params);\n'}
+[1.981062] (dog_voice) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.981104] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:249:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.981147] (dog_voice) StderrLine: {'line': b'  249 |     \x1b[01;31m\x1b[Kif\x1b[m\x1b[K (MSP_SUCCESS != ret)\n'}
+[1.981197] (dog_voice) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.981243] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:253:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected constructor, destructor, or type conversion before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.981286] (dog_voice) StderrLine: {'line': b'  253 |     printf\x1b[01;31m\x1b[K(\x1b[m\x1b[K"\xe5\x90\x88\xe6\x88\x90\xe5\xae\x8c\xe6\xaf\x95\\n");\n'}
+[1.981328] (dog_voice) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.981370] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:255:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected constructor, destructor, or type conversion before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.981414] (dog_voice) StderrLine: {'line': b'  255 |     popen\x1b[01;31m\x1b[K(\x1b[m\x1b[K"aplay tts_sample.wav","r");\n'}
+[1.981456] (dog_voice) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.981499] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:256:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected constructor, destructor, or type conversion before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.981545] (dog_voice) StderrLine: {'line': b'  256 |     sleep\x1b[01;31m\x1b[K(\x1b[m\x1b[K1);\n'}
+[1.981588] (dog_voice) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.981630] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:257:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.981673] (dog_voice) StderrLine: {'line': b'  257 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[1.981714] (dog_voice) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.986271] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.986372] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:300:120:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K\xe2\x80\x9ccommand\xe2\x80\x9d\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.986424] (dog_voice) StderrLine: {'line': b'  300 |         rclcpp::Publisher<std_msgs::msg::String>::SharedPtr commandPub = node->create_publisher<std_msgs::msg::String>(\x1b[01;31m\x1b[K\xe2\x80\x9ccommand\xe2\x80\x9d\x1b[m\x1b[K, 1000);\n'}
+[1.986472] (dog_voice) StderrLine: {'line': b'      |                                                                                                                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.004256] (-) TimerEvent: {}
+[2.019119] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:308:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Klabel \xe2\x80\x98\x1b[01m\x1b[Kexit\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label\x07-Wunused-label\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.019271] (dog_voice) StderrLine: {'line': b'  308 | \x1b[01;35m\x1b[Kexit\x1b[m\x1b[K:\n'}
+[2.019324] (dog_voice) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.104372] (-) TimerEvent: {}
+[2.204621] (-) TimerEvent: {}
+[2.304869] (-) TimerEvent: {}
+[2.405116] (-) TimerEvent: {}
+[2.505368] (-) TimerEvent: {}
+[2.605611] (-) TimerEvent: {}
+[2.705858] (-) TimerEvent: {}
+[2.806110] (-) TimerEvent: {}
+[2.906361] (-) TimerEvent: {}
+[3.006610] (-) TimerEvent: {}
+[3.106862] (-) TimerEvent: {}
+[3.207108] (-) TimerEvent: {}
+[3.307371] (-) TimerEvent: {}
+[3.407679] (-) TimerEvent: {}
+[3.507926] (-) TimerEvent: {}
+[3.608170] (-) TimerEvent: {}
+[3.708420] (-) TimerEvent: {}
+[3.808664] (-) TimerEvent: {}
+[3.908933] (-) TimerEvent: {}
+[3.936106] (dog_voice) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tts_subscribe.dir/build.make:76\xef\xbc\x9aCMakeFiles/tts_subscribe.dir/src/tts_subscribe.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.936297] (dog_voice) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/tts_subscribe.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.936533] (dog_voice) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.938189] (dog_voice) CommandEnded: {'returncode': 2}
+[4.009041] (-) TimerEvent: {}
+[4.024010] (dog_voice) JobEnded: {'identifier': 'dog_voice', 'rc': 2}
+[4.034420] (-) EventReactorShutdown: {}

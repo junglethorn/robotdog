@@ -1,0 +1,20 @@
+[100%] Built target tts_subscribe
+[100%] Built target iat_publish
+-- Install configuration: ""
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/ament_index/resource_index/package_run_dependencies/dog_voice
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/ament_index/resource_index/parent_prefix_path/dog_voice
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/ament_prefix_path.sh
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/path.sh
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/path.dsv
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.bash
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.sh
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.zsh
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.dsv
+-- Installing: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/package.dsv
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/ament_index/resource_index/packages/dog_voice
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/cmake/dog_voiceConfig.cmake
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/cmake/dog_voiceConfig-version.cmake
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/package.xml
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/lib/dog_voice/iat_publish
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/lib/dog_voice/tts_subscribe

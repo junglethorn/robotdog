@@ -1,0 +1,4 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/tts_subscribe.dir/src/tts_subscribe.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/iat_publish.dir/src/iat_publish.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable iat_publish[0m
+[ 83%] Built target iat_publish

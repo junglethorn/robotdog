@@ -23,6 +23,28 @@ or
 
 `ign gazebo classroom.sdf;`
 
+### listening
+/robottalk_ws
+
+
+terminal1:
+`. install/setup.bash`
+`ros2 run dog_voice iat_publish`
+terminal2:
+`ros2 topic pub /voiceWakeup std_msgs/msg/String {data:{'input any words'}}`
+terminal3:
+`. install/setup.bash`
+`ros2 run dog_voice tts_subscribe`
+
+### Sound source localization
+/usb_4_mic_array
+
+terminal1:
+`sudo python3 voice_angle.py`
+
+### obstacle avoidance
+/nav2_bringup 2
+
 ### face recognition
 /ros_ws
 
@@ -39,7 +61,3 @@ terminal3:
 `ros2 run py_pubsub cv_start`
 
 press anykey on terminal3 to start the camera.
-
-
-
-

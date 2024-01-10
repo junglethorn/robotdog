@@ -1,0 +1,11 @@
+/home/acir/robotdogtalk_ws/build/dog_voice/CMakeFiles/uninstall.dir
+/home/acir/robotdogtalk_ws/build/dog_voice/CMakeFiles/dog_voice_uninstall.dir
+/home/acir/robotdogtalk_ws/build/dog_voice/CMakeFiles/iat_publish.dir
+/home/acir/robotdogtalk_ws/build/dog_voice/CMakeFiles/tts_subscribe.dir
+/home/acir/robotdogtalk_ws/build/dog_voice/CMakeFiles/test.dir
+/home/acir/robotdogtalk_ws/build/dog_voice/CMakeFiles/edit_cache.dir
+/home/acir/robotdogtalk_ws/build/dog_voice/CMakeFiles/rebuild_cache.dir
+/home/acir/robotdogtalk_ws/build/dog_voice/CMakeFiles/list_install_components.dir
+/home/acir/robotdogtalk_ws/build/dog_voice/CMakeFiles/install.dir
+/home/acir/robotdogtalk_ws/build/dog_voice/CMakeFiles/install/local.dir
+/home/acir/robotdogtalk_ws/build/dog_voice/CMakeFiles/install/strip.dir

@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.000133] (dog_voice) JobQueued: {'identifier': 'dog_voice', 'dependencies': OrderedDict()}
+[0.000175] (dog_voice) JobStarted: {'identifier': 'dog_voice'}
+[0.047524] (dog_voice) JobProgress: {'identifier': 'dog_voice', 'progress': 'cmake'}
+[0.048848] (dog_voice) JobProgress: {'identifier': 'dog_voice', 'progress': 'build'}
+[0.048943] (dog_voice) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/acir/robotdogtalk_ws/build/dog_voice', '--', '-j8', '-l8'], 'cwd': '/home/acir/robotdogtalk_ws/build/dog_voice', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'acir'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/acir'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '4160'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=324eac46794d004badddc7a16579b87c'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'acir'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'acir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/acir/anaconda3/bin:/home/acir/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/acir-ubuntu2204:@/tmp/.ICE-unix/4160,unix/acir-ubuntu2204:/tmp/.ICE-unix/4160'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e9084f7_235b_4f86_abac_0ddad6067158'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KDUZF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1537'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/acir/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/acir/robotdogtalk_ws/build/dog_voice'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/acir/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=324eac46794d004badddc7a16579b87c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/acir/anaconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.087684] (dog_voice) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tts_subscribe\x1b[0m\n'}
+[0.098280] (dog_voice) StdoutLine: {'line': b'[ 66%] Built target iat_publish\n'}
+[0.099369] (-) TimerEvent: {}
+[0.101753] (dog_voice) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/tts_subscribe.dir/src/tts_subscribe.cpp.o\x1b[0m\n'}
+[0.199493] (-) TimerEvent: {}
+[0.299739] (-) TimerEvent: {}
+[0.399988] (-) TimerEvent: {}
+[0.500240] (-) TimerEvent: {}
+[0.600489] (-) TimerEvent: {}
+[0.700740] (-) TimerEvent: {}
+[0.800989] (-) TimerEvent: {}
+[0.901235] (-) TimerEvent: {}
+[1.001481] (-) TimerEvent: {}
+[1.101747] (-) TimerEvent: {}
+[1.201989] (-) TimerEvent: {}
+[1.302256] (-) TimerEvent: {}
+[1.402506] (-) TimerEvent: {}
+[1.502759] (-) TimerEvent: {}
+[1.603003] (-) TimerEvent: {}
+[1.703254] (-) TimerEvent: {}
+[1.803637] (-) TimerEvent: {}
+[1.904005] (-) TimerEvent: {}
+[1.982535] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:146:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.982677] (dog_voice) StderrLine: {'line': b'  146 | void voiceWordsCallback(const std_msgs::msg::String::ConstPtr& msg\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[1.982730] (dog_voice) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.982776] (dog_voice) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7\x1b[m\x1b[K,\n'}
+[1.982820] (dog_voice) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:16\x1b[m\x1b[K:\n'}
+[1.982863] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:105:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.982907] (dog_voice) StderrLine: {'line': b'  105 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[1.982949] (dog_voice) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.988096] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid voiceWordsCallback(const ConstPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.988187] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:148:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcmd\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.988249] (dog_voice) StderrLine: {'line': b'  148 |     char \x1b[01;35m\x1b[Kcmd\x1b[m\x1b[K[2000];\n'}
+[1.988295] (dog_voice) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.004118] (-) TimerEvent: {}
+[2.018660] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.018843] (dog_voice) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:309:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Klabel \xe2\x80\x98\x1b[01m\x1b[Kexit\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label\x07-Wunused-label\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.018903] (dog_voice) StderrLine: {'line': b'  309 | \x1b[01;35m\x1b[Kexit\x1b[m\x1b[K:\n'}
+[2.018951] (dog_voice) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.104239] (-) TimerEvent: {}
+[2.204495] (-) TimerEvent: {}
+[2.304748] (-) TimerEvent: {}
+[2.405067] (-) TimerEvent: {}
+[2.505441] (-) TimerEvent: {}
+[2.605689] (-) TimerEvent: {}
+[2.705948] (-) TimerEvent: {}
+[2.806205] (-) TimerEvent: {}
+[2.906454] (-) TimerEvent: {}
+[3.006699] (-) TimerEvent: {}
+[3.106949] (-) TimerEvent: {}
+[3.207201] (-) TimerEvent: {}
+[3.307456] (-) TimerEvent: {}
+[3.407711] (-) TimerEvent: {}
+[3.507968] (-) TimerEvent: {}
+[3.608307] (-) TimerEvent: {}
+[3.708611] (-) TimerEvent: {}
+[3.808887] (-) TimerEvent: {}
+[3.909139] (-) TimerEvent: {}
+[4.009412] (-) TimerEvent: {}
+[4.109670] (-) TimerEvent: {}
+[4.209931] (-) TimerEvent: {}
+[4.310173] (-) TimerEvent: {}
+[4.410387] (-) TimerEvent: {}
+[4.510627] (-) TimerEvent: {}
+[4.610869] (-) TimerEvent: {}
+[4.711109] (-) TimerEvent: {}
+[4.811347] (-) TimerEvent: {}
+[4.911589] (-) TimerEvent: {}
+[5.011829] (-) TimerEvent: {}
+[5.112063] (-) TimerEvent: {}
+[5.212303] (-) TimerEvent: {}
+[5.312558] (-) TimerEvent: {}
+[5.412829] (-) TimerEvent: {}
+[5.513115] (-) TimerEvent: {}
+[5.613356] (-) TimerEvent: {}
+[5.713591] (-) TimerEvent: {}
+[5.813834] (-) TimerEvent: {}
+[5.914051] (-) TimerEvent: {}
+[6.014284] (-) TimerEvent: {}
+[6.114525] (-) TimerEvent: {}
+[6.214767] (-) TimerEvent: {}
+[6.315004] (-) TimerEvent: {}
+[6.415245] (-) TimerEvent: {}
+[6.515495] (-) TimerEvent: {}
+[6.615763] (-) TimerEvent: {}
+[6.716055] (-) TimerEvent: {}
+[6.804409] (dog_voice) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tts_subscribe\x1b[0m\n'}
+[6.816169] (-) TimerEvent: {}
+[6.916421] (-) TimerEvent: {}
+[7.016676] (-) TimerEvent: {}
+[7.116917] (-) TimerEvent: {}
+[7.146264] (dog_voice) StdoutLine: {'line': b'[100%] Built target tts_subscribe\n'}
+[7.156757] (dog_voice) CommandEnded: {'returncode': 0}
+[7.184485] (dog_voice) JobProgress: {'identifier': 'dog_voice', 'progress': 'install'}
+[7.193491] (dog_voice) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/acir/robotdogtalk_ws/build/dog_voice'], 'cwd': '/home/acir/robotdogtalk_ws/build/dog_voice', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'acir'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/acir'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '4160'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=324eac46794d004badddc7a16579b87c'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'acir'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'acir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/acir/anaconda3/bin:/home/acir/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/acir-ubuntu2204:@/tmp/.ICE-unix/4160,unix/acir-ubuntu2204:/tmp/.ICE-unix/4160'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e9084f7_235b_4f86_abac_0ddad6067158'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KDUZF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1537'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/acir/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/acir/robotdogtalk_ws/build/dog_voice'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/acir/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=324eac46794d004badddc7a16579b87c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/acir/anaconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.199139] (dog_voice) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.199344] (dog_voice) StdoutLine: {'line': b'-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/ament_index/resource_index/package_run_dependencies/dog_voice\n'}
+[7.199503] (dog_voice) StdoutLine: {'line': b'-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/ament_index/resource_index/parent_prefix_path/dog_voice\n'}
+[7.199591] (dog_voice) StdoutLine: {'line': b'-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/ament_prefix_path.sh\n'}
+[7.199732] (dog_voice) StdoutLine: {'line': b'-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/ament_prefix_path.dsv\n'}
+[7.199813] (dog_voice) StdoutLine: {'line': b'-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/path.sh\n'}
+[7.199907] (dog_voice) StdoutLine: {'line': b'-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/path.dsv\n'}
+[7.199984] (dog_voice) StdoutLine: {'line': b'-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.bash\n'}
+[7.200061] (dog_voice) StdoutLine: {'line': b'-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.sh\n'}
+[7.200137] (dog_voice) StdoutLine: {'line': b'-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.zsh\n'}
+[7.200205] (dog_voice) StdoutLine: {'line': b'-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.dsv\n'}
+[7.200252] (dog_voice) StdoutLine: {'line': b'-- Installing: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/package.dsv\n'}
+[7.200297] (dog_voice) StdoutLine: {'line': b'-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/ament_index/resource_index/packages/dog_voice\n'}
+[7.200342] (dog_voice) StdoutLine: {'line': b'-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/cmake/dog_voiceConfig.cmake\n'}
+[7.200387] (dog_voice) StdoutLine: {'line': b'-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/cmake/dog_voiceConfig-version.cmake\n'}
+[7.200431] (dog_voice) StdoutLine: {'line': b'-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/package.xml\n'}
+[7.200475] (dog_voice) StdoutLine: {'line': b'-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/lib/dog_voice/iat_publish\n'}
+[7.200519] (dog_voice) StdoutLine: {'line': b'-- Installing: /home/acir/robotdogtalk_ws/install/dog_voice/lib/dog_voice/tts_subscribe\n'}
+[7.203516] (dog_voice) StdoutLine: {'line': b'-- Set runtime path of "/home/acir/robotdogtalk_ws/install/dog_voice/lib/dog_voice/tts_subscribe" to ""\n'}
+[7.205267] (dog_voice) CommandEnded: {'returncode': 0}
+[7.217043] (-) TimerEvent: {}
+[7.317647] (-) TimerEvent: {}
+[7.339511] (dog_voice) JobEnded: {'identifier': 'dog_voice', 'rc': 0}
+[7.340033] (-) EventReactorShutdown: {}

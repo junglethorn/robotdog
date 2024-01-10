@@ -1,0 +1,27 @@
+[0.060s] Invoking command in '/home/acir/robotdogtalk_ws/build/dog_voice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/acir/robotdogtalk_ws/build/dog_voice -- -j8 -l8
+[0.105s] [ 50%] [32mBuilding CXX object CMakeFiles/tts_subscribe.dir/src/tts_subscribe.cpp.o[0m
+[0.105s] [ 83%] Built target iat_publish
+[6.596s] [100%] [32m[1mLinking CXX executable tts_subscribe[0m
+[6.925s] [100%] Built target tts_subscribe
+[6.933s] Invoked command in '/home/acir/robotdogtalk_ws/build/dog_voice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/acir/robotdogtalk_ws/build/dog_voice -- -j8 -l8
+[6.968s] Invoking command in '/home/acir/robotdogtalk_ws/build/dog_voice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/acir/robotdogtalk_ws/build/dog_voice
+[6.977s] -- Install configuration: ""
+[6.978s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/ament_index/resource_index/package_run_dependencies/dog_voice
+[6.978s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/ament_index/resource_index/parent_prefix_path/dog_voice
+[6.978s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/ament_prefix_path.sh
+[6.978s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/ament_prefix_path.dsv
+[6.978s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/path.sh
+[6.978s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/path.dsv
+[6.978s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.bash
+[6.979s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.sh
+[6.979s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.zsh
+[6.979s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.dsv
+[6.979s] -- Installing: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/package.dsv
+[6.979s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/ament_index/resource_index/packages/dog_voice
+[6.979s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/cmake/dog_voiceConfig.cmake
+[6.979s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/cmake/dog_voiceConfig-version.cmake
+[6.979s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/package.xml
+[6.979s] -- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/lib/dog_voice/iat_publish
+[6.980s] -- Installing: /home/acir/robotdogtalk_ws/install/dog_voice/lib/dog_voice/tts_subscribe
+[6.983s] -- Set runtime path of "/home/acir/robotdogtalk_ws/install/dog_voice/lib/dog_voice/tts_subscribe" to ""
+[6.985s] Invoked command in '/home/acir/robotdogtalk_ws/build/dog_voice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/acir/robotdogtalk_ws/build/dog_voice

@@ -1,0 +1,32 @@
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:145:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  145 | void voiceWordsCallback(const std_msgs::msg::String::ConstPtr& msg[01;35m[K)[m[K
+      |                                                                   [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:16[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:105:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  105 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:[m[K In function ‘[01m[Kvoid voiceWordsCallback(const ConstPtr&)[m[K’:
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:176:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KcommandPub[m[K’
+  176 |         msg.data="command1"
+      |                            [01;31m[K^[m[K
+      |                            [32m[K;[m[K
+  177 | 
+  178 |         [32m[KcommandPub[m[K->publish(msg);
+      |         [32m[K~~~~~~~~~~[m[K          
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:193:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KcommandPub[m[K’
+  193 |         msg.data="command2"
+      |                            [01;31m[K^[m[K
+      |                            [32m[K;[m[K
+  194 |         [32m[KcommandPub[m[K->publish(msg);
+      |         [32m[K~~~~~~~~~~[m[K          
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:147:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  147 |     char [01;35m[Kcmd[m[K[2000];
+      |          [01;35m[K^~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/tts_subscribe.cpp:308:1:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Kexit[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label-Wunused-label]8;;[m[K]
+  308 | [01;35m[Kexit[m[K:
+      | [01;35m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/tts_subscribe.dir/build.make:76：CMakeFiles/tts_subscribe.dir/src/tts_subscribe.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/tts_subscribe.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

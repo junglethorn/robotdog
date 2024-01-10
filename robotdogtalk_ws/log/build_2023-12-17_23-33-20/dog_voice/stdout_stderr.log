@@ -1,0 +1,52 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/iat_publish.dir/src/iat_publish.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/tts_subscribe.dir/src/tts_subscribe.cpp.o[0m
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/iat_publish.cpp:263:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  263 | void WakeUp(const std_msgs::msg::String::ConstPtr& msg[01;35m[K)[m[K
+      |                                                       [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/iat_publish.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:105:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  105 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/iat_publish.cpp:[m[K In function ‘[01m[Kvoid WakeUp(const ConstPtr&)[m[K’:
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/iat_publish.cpp:263:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  263 | void WakeUp([01;35m[Kconst std_msgs::msg::String::ConstPtr& msg[m[K)
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/iat_publish.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/iat_publish.cpp:295:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kupload_on[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  295 |         int [01;35m[Kupload_on[m[K = 1; /* whether upload the user word */
+      |             [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/iat_publish.cpp:298:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kaud_src[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  298 |         int [01;35m[Kaud_src[m[K = 0; /* from mic or file */
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/iat_publish.cpp:[m[K At global scope:
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/iat_publish.cpp:131:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid demo_file(const char*, const char*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+  131 | static void [01;35m[Kdemo_file[m[K(const char* audio_file, const char* session_begin_params)
+      |             [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/acir/robotdogtalk_ws/src/dog_voice/src/iat_publish.cpp:24:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint upload_userwords()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   24 | static int [01;35m[Kupload_userwords[m[K()
+      |            [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[ 50%] [32m[1mLinking CXX executable tts_subscribe[0m
+[ 66%] [32m[1mLinking CXX executable iat_publish[0m
+[ 66%] Built target tts_subscribe
+[100%] Built target iat_publish
+-- Install configuration: ""
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/ament_index/resource_index/package_run_dependencies/dog_voice
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/ament_index/resource_index/parent_prefix_path/dog_voice
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/ament_prefix_path.sh
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/path.sh
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/environment/path.dsv
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.bash
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.sh
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.zsh
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/local_setup.dsv
+-- Installing: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/package.dsv
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/ament_index/resource_index/packages/dog_voice
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/cmake/dog_voiceConfig.cmake
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/cmake/dog_voiceConfig-version.cmake
+-- Up-to-date: /home/acir/robotdogtalk_ws/install/dog_voice/share/dog_voice/package.xml
+-- Installing: /home/acir/robotdogtalk_ws/install/dog_voice/lib/dog_voice/iat_publish
+-- Set runtime path of "/home/acir/robotdogtalk_ws/install/dog_voice/lib/dog_voice/iat_publish" to ""
+-- Installing: /home/acir/robotdogtalk_ws/install/dog_voice/lib/dog_voice/tts_subscribe
+-- Set runtime path of "/home/acir/robotdogtalk_ws/install/dog_voice/lib/dog_voice/tts_subscribe" to ""

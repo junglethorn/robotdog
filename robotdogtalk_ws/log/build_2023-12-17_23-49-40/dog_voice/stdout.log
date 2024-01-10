@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target tts_subscribe[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/iat_publish.dir/src/iat_publish.cpp.o[0m
+[ 50%] Built target tts_subscribe
